@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Flow Retail Docs',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -78,8 +78,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://www.flowretail.com/en',
+            label: 'Website',
             position: 'right',
           },
         ],
@@ -97,11 +97,11 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Linkedin',
+                href: 'https://linkedin.com/flowretail',
               },
               {
                 label: 'Discord',
@@ -127,7 +127,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Flow Retail. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
